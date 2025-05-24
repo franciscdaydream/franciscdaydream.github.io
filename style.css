@@ -340,7 +340,7 @@ font-family: "Inter-Regular", sans-serif;
 
 .cartones-juego {
   flex-shrink: 0;
-  width:40em;
+  width:80%;
   height: 30em;
   display: flex;
   flex-direction: row;
