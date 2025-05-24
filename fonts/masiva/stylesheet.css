@@ -1,0 +1,144 @@
+@font-face {
+    font-family: 'Masiva';
+    src: url('Masiva-Regular.eot');
+    src: local('Masiva Regular'), local('Masiva-Regular'),
+        url('Masiva-Regular.eot?#iefix') format('embedded-opentype'),
+        url('Masiva-Regular.woff2') format('woff2'),
+        url('Masiva-Regular.woff') format('woff'),
+        url('Masiva-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Masiva';
+    src: url('Masiva-Thin.eot');
+    src: local('Masiva Thin'), local('Masiva-Thin'),
+        url('Masiva-Thin.eot?#iefix') format('embedded-opentype'),
+        url('Masiva-Thin.woff2') format('woff2'),
+        url('Masiva-Thin.woff') format('woff'),
+        url('Masiva-Thin.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Masiva';
+    src: url('Masiva-MediumItalic.eot');
+    src: local('Masiva Medium Italic'), local('Masiva-MediumItalic'),
+        url('Masiva-MediumItalic.eot?#iefix') format('embedded-opentype'),
+        url('Masiva-MediumItalic.woff2') format('woff2'),
+        url('Masiva-MediumItalic.woff') format('woff'),
+        url('Masiva-MediumItalic.ttf') format('truetype');
+    font-weight: 500;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Masiva';
+    src: url('Masiva-LightItalic.eot');
+    src: local('Masiva Light Italic'), local('Masiva-LightItalic'),
+        url('Masiva-LightItalic.eot?#iefix') format('embedded-opentype'),
+        url('Masiva-LightItalic.woff2') format('woff2'),
+        url('Masiva-LightItalic.woff') format('woff'),
+        url('Masiva-LightItalic.ttf') format('truetype');
+    font-weight: 300;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Masiva';
+    src: url('Masiva-BoldItalic.eot');
+    src: local('Masiva Bold Italic'), local('Masiva-BoldItalic'),
+        url('Masiva-BoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('Masiva-BoldItalic.woff2') format('woff2'),
+        url('Masiva-BoldItalic.woff') format('woff'),
+        url('Masiva-BoldItalic.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Masiva';
+    src: url('Masiva-Medium.eot');
+    src: local('Masiva Medium'), local('Masiva-Medium'),
+        url('Masiva-Medium.eot?#iefix') format('embedded-opentype'),
+        url('Masiva-Medium.woff2') format('woff2'),
+        url('Masiva-Medium.woff') format('woff'),
+        url('Masiva-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Masiva';
+    src: url('Masiva-Bold.eot');
+    src: local('Masiva Bold'), local('Masiva-Bold'),
+        url('Masiva-Bold.eot?#iefix') format('embedded-opentype'),
+        url('Masiva-Bold.woff2') format('woff2'),
+        url('Masiva-Bold.woff') format('woff'),
+        url('Masiva-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Masiva';
+    src: url('Masiva-BlackItalic.eot');
+    src: local('Masiva Black Italic'), local('Masiva-BlackItalic'),
+        url('Masiva-BlackItalic.eot?#iefix') format('embedded-opentype'),
+        url('Masiva-BlackItalic.woff2') format('woff2'),
+        url('Masiva-BlackItalic.woff') format('woff'),
+        url('Masiva-BlackItalic.ttf') format('truetype');
+    font-weight: 900;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Masiva';
+    src: url('Masiva-Light.eot');
+    src: local('Masiva Light'), local('Masiva-Light'),
+        url('Masiva-Light.eot?#iefix') format('embedded-opentype'),
+        url('Masiva-Light.woff2') format('woff2'),
+        url('Masiva-Light.woff') format('woff'),
+        url('Masiva-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Masiva';
+    src: url('Masiva-ThinItalic.eot');
+    src: local('Masiva Thin Italic'), local('Masiva-ThinItalic'),
+        url('Masiva-ThinItalic.eot?#iefix') format('embedded-opentype'),
+        url('Masiva-ThinItalic.woff2') format('woff2'),
+        url('Masiva-ThinItalic.woff') format('woff'),
+        url('Masiva-ThinItalic.ttf') format('truetype');
+    font-weight: 100;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Masiva';
+    src: url('Masiva-Black.eot');
+    src: local('Masiva Black'), local('Masiva-Black'),
+        url('Masiva-Black.eot?#iefix') format('embedded-opentype'),
+        url('Masiva-Black.woff2') format('woff2'),
+        url('Masiva-Black.woff') format('woff'),
+        url('Masiva-Black.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Masiva';
+    src: url('Masiva-RegularItalic.eot');
+    src: local('Masiva Regular Italic'), local('Masiva-RegularItalic'),
+        url('Masiva-RegularItalic.eot?#iefix') format('embedded-opentype'),
+        url('Masiva-RegularItalic.woff2') format('woff2'),
+        url('Masiva-RegularItalic.woff') format('woff'),
+        url('Masiva-RegularItalic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+}
+

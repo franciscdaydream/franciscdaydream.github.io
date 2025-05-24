@@ -1,0 +1,1063 @@
+@font-face {
+  font-family: Helvetica-Regular;
+  src: url(fonts/helvetica/Helvetica.woff);
+}
+
+@font-face {
+  font-family: Helvetica-Bold;
+  src: url(fonts/helvetica/Helvetica-Bold.woff);
+}
+
+@font-face {
+  font-family: TireSwingBb-Bold ;
+  src: url(fonts/tireswing/TireSwingBB-Bold.woff2);
+}
+
+@font-face {
+  font-family: Bold-RegularMasiva ;
+  src: url(fonts/masiva/Masiva-Bold.woff2);
+}
+
+@font-face {
+    font-family: "Eina03-SemiBold";
+    src: url("https://db.onlinewebfonts.com/t/b158925a1d762313849f2482a415369d.eot");
+    src: url("https://db.onlinewebfonts.com/t/b158925a1d762313849f2482a415369d.eot?#iefix")format("embedded-opentype"),
+    url("https://db.onlinewebfonts.com/t/b158925a1d762313849f2482a415369d.woff2")format("woff2"),
+    url("https://db.onlinewebfonts.com/t/b158925a1d762313849f2482a415369d.woff")format("woff"),
+    url("https://db.onlinewebfonts.com/t/b158925a1d762313849f2482a415369d.ttf")format("truetype"),
+    url("https://db.onlinewebfonts.com/t/b158925a1d762313849f2482a415369d.svg#Eina03-SemiBold")format("svg");
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Unicase:wght@300;400;500;600;700&family=DM+Serif+Text:ital@0;1&family=Imperial+Script&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap');
+
+html{
+    scroll-behavior: smooth;
+    padding: 0px !important;
+    margin: 0px;
+}
+
+/*//////////////////////////////////////SECCIONES (FRAMES)////////////////////////////*/
+
+body{
+  background-image: url(img/imgprincipal.png);
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size:100% 38em;
+  margin: 0px;
+  
+}
+
+section{
+  padding-top: 3em;
+  padding-bottom: 3em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 80px;
+  align-items: center;
+  width: 100%;
+  top: 0px;
+}
+
+.seccion-titulo{
+  width: 100%;
+}
+
+.seccion-zanahoria {
+  background-color: #ffe6c7;
+}
+.seccion-limon {
+  background: #fffdc7;
+}
+.seccion-carrusel {
+  background: #fffdc7;
+  padding-top: 1em;
+  gap: 2em;
+}
+.seccion-melon {
+  background-color: #dcffc7;
+}
+
+
+/*///////////////////////////////TITULO Y SUBTITULO/////////////////////////////////////////*/
+
+.logo{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.logo-ly-v {
+  width: 6em;
+}
+
+.grid-head {
+ display: grid;
+ grid-template-columns: 1fr 1fr;
+ gap: 3.2em;
+ margin-bottom: 8em;
+ justify-items: center;
+ 
+}
+
+
+.logo-zanahoria-2 {
+  width: 40em;
+  grid-column-end:2;
+  margin-left: 0.4em;
+}
+
+.subtitulo-principal {
+  color: #ffffff;
+  text-align: center;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 20px;
+  letter-spacing: 0.06em;
+  font-weight: 400;
+  margin-left: 1em;
+  width: 30em;
+}
+.subtitulo-principal-span {
+  font-family: "Helvetica-Regular", sans-serif;
+}
+.subtitulo-principal-span2 {
+  font-family: "Helvetica-Bold", sans-serif;
+  font-weight: 700;
+}
+.titulo-principal {
+  color: #ffffff;
+  text-align: center;
+  font-family: "Helvetica-Bold", sans-serif;
+  font-size: 32px;
+  font-weight: 700;
+  align-items: center;
+  justify-content: center;
+}
+
+.boton1 {
+  background: #753ef4;
+  border-radius: 6px;
+  width: 15em;
+  height: 3em;
+  color: #ffffff;
+  text-align: center;
+  font-family: "Eina03SemiBold", sans-serif;
+  font-size: 25px;
+  font-weight: 400;
+  padding-top: 1em;
+}
+
+h4 {
+  margin: 0.3em;
+}
+
+
+/*//////////////////////////////////////////////TITULOS//////////////////////////////////////////*/
+
+.text-icon{
+     margin-left: 10%;
+   
+}
+
+.tomate {
+  background-color: #FF99AA;
+  border-radius: 50px;
+  height: 1.5em;
+  box-shadow: 0px 5px 0px 0px rgba(211, 122, 150, 1);
+  width: 70% ;
+  color: #ffffff;
+  font-family: "TireSwingBb-Bold", sans-serif;
+  font-size: 50px;
+  font-weight: 700;
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.toma-icon {
+  width: 110px;
+  height: 110px;
+  margin-left: 0.2em;
+}
+
+
+.zanahoria {
+  background-color: #FFAC31;
+  border-radius: 50px;
+  height: 1.5em;
+  box-shadow: 0px 5px 0px 0px rgba(195, 119, 106, 1);
+  width: 70% ;
+  color: #ffffff;
+  font-family: "TireSwingBb-Bold", sans-serif;
+  font-size: 50px;
+  font-weight: 700;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.zana-icon {
+  width: 110px;
+  height: 110px;
+
+  margin-left: 0.2em;
+}
+
+
+.limon {
+  background-color: #E6AB73;
+  border-radius: 50px;
+  height: 1.5em;
+  box-shadow: 0px 5px 0px 0px rgba(172, 124, 119, 1);
+  width: 70% ;
+  color: #ffffff;
+  font-family: "TireSwingBb-Bold", sans-serif;
+  font-size: 50px;
+  font-weight: 700;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.limo-icon {
+  width: 110px;
+  height: 110px;
+  margin-left: 0.2em;
+}
+
+.melon {
+  background-color: #A5C35C;
+  border-radius: 50px;
+  height: 1.5em;
+  box-shadow: 0px 5px 0px 0px rgba(142, 126, 111, 1);
+  width: 70% ;
+  color: #ffffff;
+  font-family: "TireSwingBb-Bold", sans-serif;
+  font-size: 50px;
+  font-weight: 700;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.melo-icon {
+  width: 110px;
+  height: 110px;
+  margin-left: 0.2em;
+}
+
+
+/*///////////////////////////////////SECCION TOMATE////////////////////////////////////////////*/
+
+.seccion-tomate {
+font-size: 25px;
+font-family: "Inter-Regular", sans-serif;
+}
+
+.parrafo-1 {
+  color: #000000;
+  text-align: left;
+  letter-spacing: 0.06em;
+  font-weight: 400;
+  position: relative;
+  width: 30em;
+}
+
+.gifs {
+  align-self: center;
+  flex-shrink: 0;
+  height: 12em;
+  position: relative;
+  width: 24em;
+  aspect-ratio: 1062/397;
+}
+
+/*///////////////////////////////////SECCION ZANAHORIA////////////////////////////////////////////*/
+
+.imagenes-zanahoria {
+  flex-shrink: 0;
+  width: 80%;
+  display: flex;
+  flex-direction: row;
+  align-items: space-between;
+  justify-content: center;
+  gap: 10%;
+}
+
+.imgnes-carton {
+  width:30em;
+  height: 30em;
+}
+
+.textos-zanahoria {
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 10em;
+  align-items: center;
+  width: 80%;
+}
+
+.parrafo-2 {
+  color: #000000;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 25px;
+  letter-spacing: 0.06em;
+  font-weight: 400;
+  width: 40%;
+
+}
+
+.parrafo-2-a {
+  color: #000000;
+  font-family: "Inter-Bold", sans-serif;
+  font-size: 25px;
+  letter-spacing: 0.06em;
+  font-weight: 400;
+  width: 40%;
+
+}
+.parrafo-2-a-span {
+  font-family: "Inter-Bold", sans-serif;
+  font-weight: 700;
+}
+.parrafo-2-a-span2 {
+  font-family: "Inter-Regular", sans-serif;
+}
+
+.juegodesplegado {
+  flex-shrink: 0;
+  width: 100%;
+  position: relative;
+  object-fit: cover;
+}
+
+/*///////////////////////////////////SECCION LIMON////////////////////////////////////////////*/
+
+.cartones-juego {
+  flex-shrink: 0;
+  width:40em;
+  height: 30em;
+  display: flex;
+  flex-direction: row;
+  align-items: space-between;
+  justify-content: center;
+}
+.parrafo-3 {
+  color: #000000;
+  text-align: justified;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 25px;
+  letter-spacing: 0.06em;
+  position: relative;
+  width: 60%;
+}
+.parrafo-3-span {
+  font-weight: 500;
+}
+.parrafo-3-span2 {
+  font-family: "Inter-Bold", sans-serif;
+  font-weight: 700;
+}
+
+
+/*/////////////////////CARRUSEL////////////////////////////*/
+
+
+.carrusel{
+  padding: 1em;
+}
+
+.slides-carrusel{
+ position: relative;
+ margin: 0 auto;
+ width: 90%;
+ overflow-x: hidden;
+}
+
+.imgcar{
+  display: flex;
+  padding-left: 1.5em;
+  flex-flow: row nowrap;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 1em;
+  transition: all .5s ease;
+  transform: translateX(0%);
+}
+
+.imagencarrusel{
+  flex:  1 0 20em;
+}
+
+.flechas{
+  gap: 15em;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.flecha{
+  width: 2em;
+  height: 2em;
+}
+
+
+/*///////////////////////////////////SECCION MELON////////////////////////////////////////////*/
+
+/*contenedor de todo*/
+.pregfrecuentes {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  flex-shrink: 0;
+  width: 80%;
+  align-items: center;
+  justify-content: center;
+}
+.rectpreguntas {
+  width: 100%;
+  height: 83px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/*pregunta en si*/
+.pregunta {
+  background: #94a767;
+  border-radius: 35px;
+  height: 78px;
+  box-shadow: 0px 5px 0px 0px rgba(109, 119, 87, 1);
+  width: 66%;
+  color: #ffffff;
+  text-align: center;
+  font-family: "TireSwingBb-Bold", sans-serif;
+  font-size: 45px;
+  letter-spacing: -0.05em;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/*respuestas a las preguntas*/
+.respuestas {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: #efefef;
+  border-radius: 6px;
+  color: #000000;
+  text-align: justified;
+  font-family: "Inter-Bold", sans-serif;
+  font-size: 25px;
+  letter-spacing: 0.03em;
+  font-weight: 700;
+  width: 55%;
+  padding: 1em;
+}
+
+.grafico {
+  padding-top: 2em;
+  width: 80%;
+
+}
+
+/*///////////////////////FORMULARIO Y TEXTO//////////////////////////////////////////////////////////////*/
+
+.parraform {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #000000;
+  text-align: left;
+  font-family: "Helvetica-Bold", sans-serif;
+  font-size: 30px;
+  letter-spacing: 0.03em;
+  font-weight: 700;
+  position: relative;
+  width: 40em;
+}
+
+
+
+form {
+  margin: 0 auto;
+  width: 40em;
+  padding: 1em;
+  padding-left: 12em;
+  background: #efefef;
+}
+
+ul {
+  list-style: none;
+  padding: 9;
+  margin: 0;
+}
+
+form li + li {
+  margin-top: 0em;
+  
+}
+
+label {
+  font-size:larger;
+  font-family: "Inter-Bold", sans-serif;
+  font-weight: bold;
+  display: inline-block;
+  width: 90px;
+  text-align: left;
+  padding-top: 1.5em;
+}
+
+input,
+textarea {
+  font: 1em sans-serif;
+  width: 75%;
+  height: 40px;
+  box-sizing: border-box;
+ border-radius: 0.2em;
+}
+
+input:focus,
+textarea:focus {
+  border-color: #000;
+}
+
+textarea {
+  vertical-align: top;
+  height: 5em;
+}
+
+.button {
+  padding-top: 2em;
+  padding-left: 2em;
+
+}
+
+a:link {
+  color: #ffffff ;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+button {
+  color: #ffffff;
+  font-family: "Eina03SemiBold", sans-serif;
+  font-size: 20px;
+  text-align: center;
+  background:#753EF4;
+  margin-left: 2.5em;
+  border-radius: 0.2em;
+  width: 15em;
+  height: 3em;
+  border: none;
+  border-radius: 0.2em;
+  cursor: pointer;
+  font-weight: 700;
+
+}
+
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.75);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 999;
+}
+
+.modal.hidden {
+  display: none;
+}
+
+.modal-content {
+  background-color: #efefef;
+  padding: 30px 20px;
+  text-align: center;
+  font-family: "Inter-Regular", sans-serif;
+  color: black;
+  max-width: 300px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.modal-content h2 {
+  margin-bottom: 10px;
+}
+
+.modal-content button {
+  margin-top: 0.5em;
+  margin-left: 0px;
+  padding: 10px 20px;
+  background-color: #753EF4;;
+  color: white;
+  font-family: "Inter-Bold", sans-serif;
+  border: none;
+  border-radius: 0.2em;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.form-desktop {
+  align-self: stretch;
+  flex-shrink: 0;
+
+  position: relative;
+}
+
+.modal-content button:hover {
+  background-color: #753EF4;;
+}
+
+
+/*/////////////////////FOOTER///////////////////////////////////////////////////////////////////////////*/
+
+footer{
+  background-color: #191919;
+  color: #ffffff;
+  text-align: left;
+  font-family: "Bold-RegularMasiva", sans-serif;
+  font-weight: 400;
+  padding: 2em;
+  padding-top: 0.5em;
+  margin: 0%;
+}
+
+.leyendas-y-videojuegos {
+  font-size: 35px;
+
+}
+.datoseric {
+  padding-top: 0.9em;
+  font-size: 25px;
+}
+
+
+/*/////////////////////MEDIA QUERY///////////////////////////////////////////////////////////////////////////*/
+
+
+@media (width < 721px) {
+  .grid-head {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 3em;
+    margin-bottom: 8em;
+    justify-items: center;
+  }
+ 
+  .logo-zanahoria-2 {
+    width: 25em;
+    grid-column-end:2;
+    margin-left: 0.4em;
+  }
+
+  .titulo-principal {
+    font-size: 30px;
+    width: 65%;
+    overflow-wrap: break-word;
+  }  
+
+  .subtitulo-principal {
+    font-size: 17px;
+    width: 80%;
+  }
+
+  body{
+    background-size:50em 50em;
+    overflow-x: hidden;
+  }
+
+  .boton1 {
+    width: 10em;
+    height: 2em;
+    font-size: 30px;
+    padding-top: 0.5em;
+}
+
+  h4 {
+    margin: 0.3em;
+    font-size: 25px;
+  }
+
+
+
+
+  .text-icon{
+    margin-left: 1em;
+  }
+
+  .tomate {
+    height: 1.5em;
+    background-size: contain;
+    width: 90% ;
+    font-size: 25px;
+  }
+
+  .toma-icon {
+  width: 55px;
+  height: 55px;
+
+}
+
+section{
+  gap: 60px;
+}
+
+
+
+  .zanahoria {
+    height: 1.5em;
+    background-size: contain;
+    width: 90% ;
+    font-size: 25px;
+  }
+
+  .zana-icon {
+    width: 55px;
+    height: 55px;
+
+}
+
+  .limon {
+    height: 1.5em;
+    background-size: contain;
+    width: 90% ;
+    font-size: 25px;
+  }
+
+  .limo-icon {
+    width: 55px;
+    height: 55px;
+
+}
+
+  .melon {
+    height: 1.5em;
+    background-size: contain;
+    width: 90%;
+    font-size: 25px;
+  }
+
+  .melo-icon {
+    width: 55px;
+    height: 55px;
+}
+
+/*///////////////////////////////////SECCION TOMATE////////////////////////////////////////////*/
+
+.seccion-tomate {
+  font-size: 20px;
+}
+
+.parrafo-1 {
+  text-align: left;
+  letter-spacing: 0.06em;
+  font-weight: 400;
+  position: relative;
+  width: 20em;
+}
+
+.gifs {
+  align-self: center;
+  flex-shrink: 0;
+  height: 10em;
+  position: relative;
+  width: 20em;
+  aspect-ratio: 1062/397;
+}
+
+/*///////////////////////////////////SECCION ZANAHORIA////////////////////////////////////////////*/
+
+.imagenes-zanahoria {
+  flex-shrink: 0;
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: space-between;
+  gap: 10%;
+}
+
+.imgnes-carton {
+  width:90%;
+  height: 90%;
+}
+
+.textos-zanahoria {
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1em;
+  align-items: center;
+  width: 90%;
+}
+
+.parrafo-2 {
+  font-size: 20px;
+  letter-spacing: 0.06em;
+  font-weight: 400;
+  width: 90%;
+
+}
+
+.parrafo-2-a {
+  font-size: 20px;
+  letter-spacing: 0.06em;
+  font-weight: 400;
+  width: 90%;
+
+}
+
+.juegodesplegado {
+  flex-shrink: 0;
+  width: 90%;
+  margin: 1.3em;
+  position: relative;
+  object-fit: cover;
+}
+
+/*///////////////////////////////////SECCION LIMON////////////////////////////////////////////*/
+
+.cartones-juego {
+  flex-shrink: 0;
+  width:25em;
+  height: 15em;
+  display: flex;
+  flex-direction: row;
+  align-items: space-between;
+  justify-content: center;
+}
+.parrafo-3 {
+  font-size: 20px;
+  letter-spacing: 0.06em;
+  position: relative;
+  width: 90%;
+}
+.parrafo-3-span {
+  font-weight: 500;
+}
+.parrafo-3-span2 {
+  font-weight: 700;
+}
+
+.imgcar {
+  padding-left: 0em;
+}
+
+.flechas{
+   padding-left: 0px;
+}
+
+/*///////////////////////////////////SECCION MELON////////////////////////////////////////////*/
+
+/*contenedor de todo*/
+.pregfrecuentes {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  flex-shrink: 0;
+  width: 90%;
+  align-items: center;
+  justify-content: center;
+}
+.rectpreguntas {
+  width: 100%;
+  height: 83px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/*pregunta en si*/
+.pregunta {
+  border-radius: 15px;
+  /* height: 60px; */
+  box-shadow: 0px 5px 0px 0px rgba(109, 119, 87, 1);
+  width: 98%;
+  color: #ffffff;
+  text-align: center;
+  font-size: 25px;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/*respuestas a las preguntas*/
+.respuestas {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  border-radius: 6px;
+  text-align: justified;
+  font-size: 20px;
+  letter-spacing: 0.03em;
+  font-weight: 700;
+  width: 90%;
+  padding: 1em;
+}
+
+.grafico {
+  padding-top: 2em;
+  width: 90%;
+}
+
+/*///////////////////////FORMULARIO Y TEXTO//////////////////////////////////////////////////////////////*/
+
+.parraform {
+  text-align: center;
+  font-size: 27px;
+  letter-spacing: 0.02em;
+  width: 90%;
+}
+
+
+
+form {
+  margin: 0 auto;
+  width: 90%;
+  padding: 1em;
+  /* align-items: center; */
+}
+
+ul {
+  list-style: none;
+  padding: 9;
+  margin: 0;
+}
+
+form li + li {
+  margin-top: 0em;
+  
+}
+
+label {
+  font-size:larger;
+  display: inline-block;
+  width: 90%;
+  text-align: left;
+  padding-top: 1.5em;
+}
+
+input,
+textarea {
+  font: 1em sans-serif;
+  width: 90%;
+  height: 40px;
+  box-sizing: border-box;
+  border-radius: 0.2em;
+  /* padding-left: 5em; */
+}
+
+
+textarea {
+  vertical-align: top;
+  height: 5em;
+}
+
+.button {
+  padding-top: 2em;
+  padding-left: 2em;
+
+}
+
+button {
+  font-size: 20px;
+  text-align: center;
+  margin-left: 0em;
+  border-radius: 0.2em;
+  width: 90%;
+  height: 3em;
+  border: none;
+  border-radius: 0.2em;
+  cursor: pointer;
+}
+
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 999;
+}
+
+.modal.hidden {
+  display: none;
+}
+
+.modal-content {
+  padding: 30px 20px;
+  text-align: center;
+  max-width: 300px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.modal-content h2 {
+  margin-bottom: 10px;
+}
+
+.modal-content button {
+  margin-top: 0.5em;
+  margin-left: 0px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 0.2em;
+  transition: background 0.3s;
+}
+
+.form-desktop {
+  align-self: stretch;
+  flex-shrink: 0;
+
+  position: relative;
+}
+
+
+
+/*/////////////////////FOOTER///////////////////////////////////////////////////////////////////////////*/
+
+footer{
+  font-weight: 400;
+  padding: 1.5em;
+  padding-top: 0.5em;
+  margin: 0%;
+}
+
+.leyendas-y-videojuegos {
+  font-size: 29px;
+
+}
+.datoseric {
+  padding-top: 1em;
+  font-size: 20px;
+}
+  
+}
