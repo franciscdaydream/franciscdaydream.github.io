@@ -839,7 +839,7 @@ section{
 
 .cartones-juego {
   flex-shrink: 0;
-  width:25em;
+  width:80%;
   height: 15em;
   display: flex;
   flex-direction: row;
