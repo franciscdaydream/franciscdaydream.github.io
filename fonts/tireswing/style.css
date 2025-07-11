@@ -1,9 +1,0 @@
-@font-face {
-    font-family: 'Tire Swing BB';
-    src: local('Tire Swing BB Bold'), local('Tire-Swing-BB-Bold'),
-        url('TireSwingBB-Bold.woff2') format('woff2'),
-        url('TireSwingBB-Bold.woff') format('woff'),
-        url('TireSwingBB-Bold.ttf') format('truetype');
-    font-weight: 700;
-    font-style: normal;
-  }
