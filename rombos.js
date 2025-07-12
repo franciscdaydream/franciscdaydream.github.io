@@ -12,7 +12,7 @@ class rombos{
   
   dibujar(){
     
-    if(this.valor == 0){
+    if(this.valor == 0 || this.valor == 3){
       this.colorFinal = color(0,0,0);
     } else if(this.valor == 1){
       this.colorFinal = color(0,0,100);
