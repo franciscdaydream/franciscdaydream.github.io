@@ -70,7 +70,7 @@ function setup() {
 
   for (let x = anchorombos-anchorombos/3; x < anchorombos*12; x += anchorombos*2) {
     for (let y = anchorombos-anchorombos/3; y < anchorombos*12; y += anchorombos*2) {
-      saturacionRombos.push(random([0, 1, 2]));
+      saturacionRombos.push(random([0, 1, 2, 3]));
     } 
   }
 }
