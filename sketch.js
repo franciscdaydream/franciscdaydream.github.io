@@ -26,7 +26,8 @@ let saturacionRombos = []; //selecciona que rombos son blancos, negros o de colo
 let coloresCuadros = []; //almacena los colores asignados a cada cuadrado
 let cantidad = 6;
 let mosaicos0 = [];
-
+// cambi de color entre los rombos
+const intervaloCambio = 300; // 2 segundos = 120 frames
 
 /*PRELOAD/////////////////////////////////////////////////////////////////////////////////////////*/
 
@@ -78,7 +79,18 @@ function setup() {
 
 function draw() {
   background(0)
-
+  // cambio de color de los rombos
+if (frameCount % intervaloCambio === 0) {
+  for (let i = 0; i < saturacionRombos.length; i++) {
+    if (saturacionRombos[i] === 0) {
+      saturacionRombos[i] = 1;  // 0 pasa a 1
+    } else if (saturacionRombos[i] === 1) {
+      saturacionRombos[i] = 2;  // 1 pasa a 2
+    } else if (saturacionRombos[i] === 2) {
+      saturacionRombos[i] = 0;  // 2 pasa a 0
+    }
+  }
+}
   //amp = mic.getLevel();
 if (mic){
 ampCruda = mic.getLevel(); // señal de entrada de mic DIRECTA
