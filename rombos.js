@@ -22,14 +22,14 @@ class rombos{
       //mapeo la sicion del mouseY en el height y te devuelve un angulo pi
      let angulo =0 ;
      angleMode(DEGREES)
-        if (detectagrave >= 1){
-      angulo = 30;
-     }  if (detectagrave >= 2){
-      angulo = 0;
-     }  if (detectaagudo >= 3){
-      angulo = 30;
-     }  if (detectaagudo >= 4){
-      angulo = 0;
+        if (detectagrave >= 2){
+          while( angulo < 90){
+            angulo += frameCount;
+          }
+     }  if (detectaagudo >= 1){
+      while( angulo < 90){
+            angulo += frameCount;
+          }
      } 
     push();
      //hago que el 0,0 este en el centro de cada rombo
