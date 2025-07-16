@@ -104,8 +104,8 @@ ampCruda = mic.getLevel(); // señal de entrada de mic DIRECTA
   // Detecta y devuelve valor de graves y agudos 
   let grave = fft.getEnergy(20, 200); 
   let agudo = fft.getEnergy(300, 600); 
-  detectagrave = map(grave,20,200,0,3);
-  detectaagudo = map(agudo,400,900,3,6);
+  detectagrave = map(grave, 50, 150, 0, 3);
+  detectaagudo = map(agudo, 400, 900, 3, 6); 
   console.log(detectagrave + "," + detectaagudo);
   cambioColorGlobal= map(amp,0,1,0,255);
   
