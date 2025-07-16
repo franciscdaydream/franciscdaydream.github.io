@@ -7,7 +7,8 @@ class rombos{
       this.ancho = 30+this.mod;
       this.valor = sColor;
       this.colorFinal = color(0,0,0);
-
+      this.anguloActual = 0;
+      this.anguloObjetivo = 0;
   }
   
   dibujar(){
@@ -19,23 +20,21 @@ class rombos{
     } else if(this.valor == 2){
       this.colorFinal = color(200,84,62);
     }
-      //mapeo la sicion del mouseY en el height y te devuelve un angulo pi
-     let angulo =0 ;
-     angleMode(DEGREES)
-        if (detectagrave >= 2){
-          while( angulo < 90){
-            angulo += frameCount;
-          }
-     }  if (detectaagudo >= 1){
-      while( angulo < 90){
-            angulo += frameCount;
-          }
-     } 
+     
+   if (detectagrave > 1.9 ){
+    this.anguloObjetivo = amp;
+    }else{
+      this.anguloObjetivo =0;
+    }
+    // Suavizamos la transición usando lerp
+    this.anguloActual = lerp(this.anguloActual, this.anguloObjetivo, 0.5);  // podés cambiar 0.1 por 0.05 si querés más suavidad
+console.log( this.anguloActual);
+     
     push();
      //hago que el 0,0 este en el centro de cada rombo
     translate(64 + this.x - this.mod + this.ancho, 94 + this.y );
-    //ROTAN LOS ROMBOSS   ✧｡٩(ˊᗜˋ )و✧*｡
-    rotate(angulo);
+     //ROTAN LOS ROMBOSS   ✧｡٩(ˊᗜˋ )و✧*｡
+    rotate(this.anguloActual);
         
     noStroke();
     fill(this.colorFinal);
