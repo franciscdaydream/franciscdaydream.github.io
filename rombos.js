@@ -3,7 +3,7 @@ class rombos{
   constructor(pX,pY,sColor){
       this.x = pX;
       this.y = pY;
-      this.mod = cambioLugar/50;
+      this.mod = cambioColorGlobal/50;
       this.ancho = 30+this.mod;
       this.valor = sColor;
       this.colorFinal = color(0,0,0);
