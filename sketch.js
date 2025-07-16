@@ -112,7 +112,7 @@ console.log(detectagrave + "," + detectaagudo);
   cambioColorGlobal= map(amp,0,1,0,255);
   cambioLugar=  map(amp,0,1,0,255);
   push();
-  drawingContext.filter = `hue-rotate(${mouseX}deg)`;
+  drawingContext.filter = `hue-rotate(${cambioColorGlobal}deg)`;
   cuadros1();
   rombo(); 
   pop();
